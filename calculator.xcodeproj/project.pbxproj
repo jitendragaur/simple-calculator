@@ -12,16 +12,20 @@
 		0A079A3A1C5BDB71002DF387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A079A381C5BDB71002DF387 /* Main.storyboard */; };
 		0A079A3C1C5BDB71002DF387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A079A3B1C5BDB71002DF387 /* Assets.xcassets */; };
 		0A079A3F1C5BDB71002DF387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A079A3D1C5BDB71002DF387 /* LaunchScreen.storyboard */; };
+		0A2FDFDA1C5CC090002F9D91 /* keypress.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A2FDFD91C5CC090002F9D91 /* keypress.mp3 */; settings = {ASSET_TAGS = (); }; };
+		0A2FDFDC1C5EA12D002F9D91 /* emptytrash.aif in Resources */ = {isa = PBXBuildFile; fileRef = 0A2FDFDB1C5EA12D002F9D91 /* emptytrash.aif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A079A311C5BDB71002DF387 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A079A311C5BDB71002DF387 /* Simple Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A079A341C5BDB71002DF387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A079A361C5BDB71002DF387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A079A391C5BDB71002DF387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A079A3B1C5BDB71002DF387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A079A3E1C5BDB71002DF387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A079A401C5BDB71002DF387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2FDFD91C5CC090002F9D91 /* keypress.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = keypress.mp3; sourceTree = "<group>"; };
+		0A2FDFDB1C5EA12D002F9D91 /* emptytrash.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = emptytrash.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,7 @@
 		0A079A321C5BDB71002DF387 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A079A311C5BDB71002DF387 /* calculator.app */,
+				0A079A311C5BDB71002DF387 /* Simple Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				0A079A341C5BDB71002DF387 /* AppDelegate.swift */,
+				0A2FDFD91C5CC090002F9D91 /* keypress.mp3 */,
+				0A2FDFDB1C5EA12D002F9D91 /* emptytrash.aif */,
 				0A079A361C5BDB71002DF387 /* ViewController.swift */,
 				0A079A381C5BDB71002DF387 /* Main.storyboard */,
 				0A079A3B1C5BDB71002DF387 /* Assets.xcassets */,
@@ -81,7 +87,7 @@
 			);
 			name = calculator;
 			productName = calculator;
-			productReference = 0A079A311C5BDB71002DF387 /* calculator.app */;
+			productReference = 0A079A311C5BDB71002DF387 /* Simple Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +127,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2FDFDA1C5CC090002F9D91 /* keypress.mp3 in Resources */,
 				0A079A3F1C5BDB71002DF387 /* LaunchScreen.storyboard in Resources */,
+				0A2FDFDC1C5EA12D002F9D91 /* emptytrash.aif in Resources */,
 				0A079A3C1C5BDB71002DF387 /* Assets.xcassets in Resources */,
 				0A079A3A1C5BDB71002DF387 /* Main.storyboard in Resources */,
 			);
@@ -249,7 +257,7 @@
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jitendra.calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Simple Calculator";
 			};
 			name = Debug;
 		};
@@ -260,7 +268,7 @@
 				INFOPLIST_FILE = calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jitendra.calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Simple Calculator";
 			};
 			name = Release;
 		};
@@ -283,6 +291,7 @@
 				0A079A451C5BDB71002DF387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
